@@ -1,0 +1,19 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  height: 100%;
+  width: 75%; 
+  margin: 4rem auto;
+  align-items: center;
+  text-align: center;
+}
