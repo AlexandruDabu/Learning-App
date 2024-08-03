@@ -40,3 +40,13 @@
     border-color: #3e8e41; 
     color:white
 }
+
+@media (max-width: 600px) {
+    .button-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .button-item{
+        margin: 1rem 0;
+    }
+}

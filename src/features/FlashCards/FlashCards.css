@@ -1,0 +1,21 @@
+@media (max-width: 1000px) {
+    .lessonsContent {
+        display: flex;
+        flex-direction: column;
+        min-width: 400px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1600px) {
+    .lessonsContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1601px) {
+    .lessonsContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

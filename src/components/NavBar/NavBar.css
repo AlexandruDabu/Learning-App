@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #4CAF50; /* Green background */
+    background-color: #4CAF50; 
     color: white;
 }
 
@@ -45,14 +45,13 @@
 .navbar-login:hover {
     background-color: #333;
 }
-/* src/components/Navbar.css */
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #4CAF50; /* Green background */
+    background-color: #4CAF50; 
     color: white;
 }
 
@@ -91,20 +90,20 @@
 }
 
 .navbar-login {
-    background-color: #333; /* Green background */
-    color: white; /* White text */
-    padding: 10px 20px; /* Increased padding for better spacing */
-    border-radius: 6px; /* Rounded corners */
-    border: none; /* Remove border */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Slightly larger font */
-    font-weight: bold; /* Bold text */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: 0.4s; /* Smooth transition */
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 6px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px;
+    font-weight: bold; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: 0.4s; 
 }
 
 .navbar-login:hover {
-    background-color: #444; /* Darker green on hover */
-    transform: translateY(-2px); /* Slight lift effect on hover */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Slightly more shadow on hover */
+    background-color: #444; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
 }

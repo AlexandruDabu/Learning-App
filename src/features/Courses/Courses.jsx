@@ -32,10 +32,10 @@ export default function Courses() {
     return (
         <>
         <h1>Courses</h1>
-        <div className="playlists-container">
+        <div className="videos-container">
         {playlists.map(playlist => (
             <a href={`https://www.youtube.com/watch?v=${playlist.id.videoId}`} target="_blank">
-                <div key={playlist.id} className="playlist-card">
+                <div key={playlist.id} className="video-card">
                     <h2>{truncateTitle(playlist.snippet.title)}</h2>
                 <img src={playlist.snippet.thumbnails.default.url} alt={playlist.snippet.title} />
                 </div>

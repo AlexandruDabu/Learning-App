@@ -1,4 +1,3 @@
-// import 'dotenv/config';
 const channelId = import.meta.env.VITE_CHANNEL_ID;
 const API_KEY = import.meta.env.VITE_API_KEY;
 const getYtCourses = async () => {

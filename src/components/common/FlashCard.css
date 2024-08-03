@@ -43,3 +43,7 @@
     transform: rotateY(180deg);
     padding: 0 1rem;
 }
+
+@media (max-width: 600px) {
+    
+}

@@ -28,7 +28,7 @@
 .profile-group h1 {
     font-size: 24px;
     margin: 10px 0;
-    color: #333;
+    color: white;
 }
 
 .profile-group textarea {
@@ -38,10 +38,9 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-    background-color: #f0f0f0; /* Light grey background to indicate it's read-only */
-    color: #666; /* Slightly muted text color */
-    resize: none; /* Prevent resizing */
+    background-color: #f0f0f0; 
+    color: #666; 
+    resize: none; 
     box-sizing: border-box;
-    cursor: default; /* Change cursor to default to indicate it's not editable */
+    cursor: default; 
 }
-

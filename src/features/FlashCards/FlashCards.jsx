@@ -1,6 +1,6 @@
 import FlashCard from "../../components/common/FlashCard";
 import { dataFlashCards } from "../../db/data";
-
+import './FlashCards.css'
 export default function FlashCards() {
     return (
         <>
