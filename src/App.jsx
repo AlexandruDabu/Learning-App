@@ -8,6 +8,7 @@ import Lessons from './pages/Lessons/Lessons'
 import Contact from './pages/Contact/Contact'
 import FlashCards from './features/FlashCards/FlashCards'
 import Courses from './features/Courses/Courses'
+import Questions from './features/Questions/Questions'
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
         <Route path='/lessons' element={<Lessons/>}>
           <Route path='flashcards' element={<FlashCards/>}/>
           <Route path='courses' element={<Courses/>}/>
-          <Route path='questions'/>
+          <Route path='questions' element={<Questions/>}/>
         </Route>
         <Route path='/quizzes' element={<Quizzes/>}/>
         <Route path='/profile' element={<Profile/>}/>

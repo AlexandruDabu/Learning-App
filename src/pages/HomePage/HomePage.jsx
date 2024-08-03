@@ -1,7 +1,7 @@
 import './HomePage.css'
 import NavBar from "../../components/NavBar/NavBar";
 import { Link, Outlet } from 'react-router-dom';
-import logo from '../../assets/logo-HomePage.jfif';
+import logo from '../../assets/logo.jpeg';
 
 
 export default function HomePage(){
