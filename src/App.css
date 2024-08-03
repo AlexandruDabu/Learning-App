@@ -11,7 +11,8 @@ body, html, #root {
 }
 
 main{
-  height: 100%;
+  flex: 1;
+  height: auto;
   width: 75%; 
   margin: 4rem auto;
   align-items: center;
